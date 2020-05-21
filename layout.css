@@ -71,11 +71,11 @@ h1{color: white; line-height: 75px; float: left;}
 #footer .fLogo {position: fixed;left:110px;bottom: 60px;}
 #footer .sns {position: fixed;right:110px;bottom: 60px;z-index: 98;}
 #footer .sns li {float: left;margin-left:12px;position: relative;width: 37px;height: 37px;}
-#footer .sns li:nth-child(1) {position: fixed; bottom:60px;top:px;right: 130px; z-index: 300px; width: 7px ;height: 16px; background:url("../images/layout/sns01.png");}
-#footer .sns li:nth-child(2) {position: fixed; bottom:59px;top:px;right: 100px; z-index: 300px; width: 17px ;height: 17px; background: url("../images/layout/sns02.png");}#footer .sns li:nth-child(2) {position: fixed; bottom:59px;top:px;right: 100px; z-index: 300px; width: 17px ;height: 17px; background: url("../images/layout/sns02.png");}
-#footer .sns.on li:nth-child(1) {background: url("../images/layout/sns01_hover.png");}
-#footer .sns.on li:nth-child(2) {background: url("../images/layout/sns02_hover.png");}
+#footer .sns li:nth-child(1) {position: fixed; bottom:60px;top:px;right: 130px; z-index: 300px; width: 7px ;height: 16px; background:url("images/layout/sns01.png");}
+#footer .sns li:nth-child(2) {position: fixed; bottom:59px;top:px;right: 100px; z-index: 300px; width: 17px ;height: 17px; background: url("images/layout/sns02.png");}#footer .sns li:nth-child(2) {position: fixed; bottom:59px;top:px;right: 100px; z-index: 300px; width: 17px ;height: 17px; background: url("images/layout/sns02.png");}
+#footer .sns.on li:nth-child(1) {background: url("images/layout/sns01_hover.png");}
+#footer .sns.on li:nth-child(2) {background: url("images/layout/sns02_hover.png");}
 
-#footer .sns.blue li:nth-child(1) {background: url("../images/layout/sns01_hover.png");}
-#footer .sns.blue li:nth-child(2) {background: url("../images/layout/sns02_hover.png");}
+#footer .sns.blue li:nth-child(1) {background: url("images/layout/sns01_hover.png");}
+#footer .sns.blue li:nth-child(2) {background: url("images/layout/sns02_hover.png");}
 

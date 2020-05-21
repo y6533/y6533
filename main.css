@@ -1,16 +1,16 @@
 .section {background-size: auto; background-position: center center; background-repeat: no-repeat;}
 
-.main01 {background-image: url("../images/main/main01.gif");}
-.main02 {background-image: url("../images/main/manifesto1.gif");}
-.main03 {background-image: url("../images/main/manifesto2.gif");}
-.main04 {background-image: url("../images/main/manifesto3.gif");}
+.main01 {background-image: url("images/main/main01.gif");}
+.main02 {background-image: url("images/main/manifesto1.gif");}
+.main03 {background-image: url("images/main/manifesto2.gif");}
+.main04 {background-image: url("images/main/manifesto3.gif");}
 
 .main01 h2 {text-align: center;margin-top: 0px;margin-left: 0px; }
 .main02 h2 {text-align: left;margin-left: 0px;;}
 .main03 h2 {text-align: top;margin-top: 0px ;left;margin-left: 0px;;}
 .main04 h2 {text-align: left;margin-left: 0px;;}
-#portfolio {position: absolute; width: 100%;height: 100% ; background-repeat: no-repeat;background-position: center center;background-image: url("../images/main/bgPortfolio.jpg");overflow: hidden;}
-#visualDesign02 {position: absolute; width: 100%;height: 100% ; background-repeat: no-repeat;background-position: center center;background-image: url("../images/main/bgPortfolio.jpg");overflow: hidden;}
+#portfolio {position: absolute; width: 100%;height: 100% ; background-repeat: no-repeat;background-position: center center;background-image: url("images/main/bgPortfolio.jpg");overflow: hidden;}
+#visualDesign02 {position: absolute; width: 100%;height: 100% ; background-repeat: no-repeat;background-position: center center;background-image: url("images/main/bgPortfolio.jpg");overflow: hidden;}
 #portfolio .snb {width: 800x;margin: 200px auto 0;}
 #portfolio .snb li {width: 27.33%;float: left;text-align: center;position: relative;}
 #portfolio .branding{margin-left: 8vw; margin-top: 1.5vw;}
@@ -18,11 +18,11 @@
 
 
 #portfolio .snb li a {display: inline-block;width: 24.3vw; height: 30vw;}
-#portfolio .snb li:nth-child(1) a {background-image: url("../images/layout/branding_icon.gif");background-size: 90%; background-position:; margin-top: 2.3vw;}
+#portfolio .snb li:nth-child(1) a {background-image: url("images/layout/branding_icon.gif");background-size: 90%; background-position:; margin-top: 2.3vw;}
 #portfolio .snb li:nth-child(1) a {background-repeat: no-repeat;}
-#portfolio .snb li:nth-child(2) a {background-image: url("../images/layout/uiux_icon.gif"); background-size: 100%; background-position:;}
+#portfolio .snb li:nth-child(2) a {background-image: url("images/layout/uiux_icon.gif"); background-size: 100%; background-position:;}
 #portfolio .snb li:nth-child(2) a{background-repeat: no-repeat;}
-#portfolio .snb li:nth-child(3) a {background-image: url("../images/layout/editorial_icon.gif"); background-size: 90%; background-position:;background-repeat: no-repeat; margin-top: 2.3vw;}
+#portfolio .snb li:nth-child(3) a {background-image: url("images/layout/editorial_icon.gif"); background-size: 90%; background-position:;background-repeat: no-repeat; margin-top: 2.3vw;}
 #portfolio .snb li:nth-child(1):hover a {;margin-top: 13px;}
 #portfolio .snb li:nth-child(2):hover a {;margin-top: -10px;}
 #portfolio .snb li:nth-child(3):hover a {;margin-top: 13px;}
@@ -64,7 +64,7 @@ margin-top: 6.5vw; margin-left:45.5vw; letter-spacing: 1.6px;font-weight: 650; t
 #portfolio .btnNext {position: absolute;right:100px;top:50%;transform:translateY(-50%);z-index: 2;}
 #portfolio .btnBack {position: absolute;top:200px;right:250px;}
 
-#visualDesign {position: absolute;width: 100%;height: 100%;background-repeat: no-repeat;background-position: 50% 0%;background-image: url("../images/main/bgVisualDesign.png");overflow: hidden;}
+#visualDesign {position: absolute;width: 100%;height: 100%;background-repeat: no-repeat;background-position: 50% 0%;background-image: url("images/main/bgVisualDesign.png");overflow: hidden;}
 #visualDesign .snb {width: 1100px;margin: 100px auto 0;}
 #visualDesign .snb li {width: 33.33%;float: left; text-align: center;position: relative;}
 #visualDesign .snb li a {display: inline-block;width: 20vw;;height: 30vw;}
@@ -184,7 +184,7 @@ margin-top: 6.5vw; margin-left:45.5vw; letter-spacing: 1.6px;font-weight: 650; t
 
 /**contact**/
 #contact {
-    background-image: url("../images/layout/contact_bg.jpg");
+    background-image: url("images/layout/contact_bg.jpg");
     position: absolute;
     width: 100%;
     height: 100%;
