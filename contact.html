@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="viewport" content="width=1200,user-scalable=yes">
+	<meta name="apple-mobile-web-app-capable" content="yes" /> 
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="naver-site-verification" content=""/>
+	<meta name="description" content=""> 
+
+	<title>구유진</title>
+	<meta name="description" content="">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="구유진">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="">
+	<meta property="og:url" content="">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/font.css" />	
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
+	<link rel="stylesheet" type="text/css" href="css/swiper.css" />	
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css" />	
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css" />	
+	<link rel="stylesheet" type="text/css" href="css/swiper.css" />	
+	<link rel="stylesheet" type="text/css" href="css/layout.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="css/aos.css" />
+	  <!--[if lt IE 9]>
+		<script type="text/javascript" src="../../js/respond.js"></script>
+		<script type="text/javascript" src="../../js/html5shiv.js"></script>
+	  <![endif]-->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.fullpage.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/common.js"></script>
+</head>
+<body>
+	<header id="header">
+		<h1 class="logo">
+			<a href="index.html">
+				
+			</a>
+		</h1>
+<header>
+        <div class="wrapper">
+    <div id="menu">
+      <a href="contact.html" id="link-plus">Contact</a>
+      <a href="about.html" id="link">About</a>      
+      <a href="work.html" id="link">Portfolio</a>
+    </div>
+        </div>
+    </header>
+	</header>
+	
+	<div id="subContents">
+		<div id="contact">
+			<div class="form">
+            <img src="images/layout/contact_motion.gif">
+            </div>
+		</div>
+	</div>
+    <h1 class="top_contact">Contact</h1>
+    <form method="GET" action="mailto:.com" enctype="text/plain">
+        
+
+    <div class="name">Name</div>
+    <input class="name_btn" name="Name" />
+    
+    <div class="subject">Subject</div>
+    <input class="subject_btn" type="text" name="subject" />
+
+    <div class="mail">E-Mail</div>
+    <input class="mail_btn" name="E-Mail Address" />
+
+    <div class="message">Message</div>
+    <textarea class="message_btn1" name="Message"></textarea>
+    <div>
+        <h2 data-aos="fade-up" class="mail_icon"><img src="images/layout/round-mail.png">y6533@naver.com</h2>  
+        <h2 data-aos="fade-up" class="phone_icon"><img src="images/layout/round-phone_callback.png">010-2692-2293</h2> 
+    </div>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+         <script src="js/aos.js"></script>
+         <script type="text/javascript">
+        
+        AOS.init({
+            offset:50,
+            duration: 1300,
+                 }
+                );
+ </script>
+
+
+    <br/>
+    <input type="hidden" name="body" />
+    <input class="send" type="submit" value="Send" />
+    </form>
+
+<script>
+   var form = document.getElementsByTagName('form')[0];
+   form.addEventListener('submit',contact,false);
+   function contact(e) {
+      // Prevent Default Form Submission
+      e.preventDefault();
+
+      var target = e.target || e.srcElement;
+      var i = 0;
+      var message = '';
+
+      // Loop Through All Input Fields
+      for(i = 0; i < target.length; ++i) {
+         // Check to make sure it's a value. Don't need to include Buttons
+         if(target[i].type != 'text' && target[i].type != 'textarea') {
+                // Skip to next input since this one doesn't match our rules
+            continue;
+         }
+
+         // Add Input Name and value followed by a line break
+         message += target[i].name + ': ' + target[i].value + "\r\n";
+      }
+      // Modify the hidden body input field that is required for the mailto: scheme
+      target.elements["body"].value = message;
+
+      // Submit the form since we previously stopped it. May cause recursive loop in some browsers? Should research this.
+      this.submit();
+   }
+</script>
+	<footer id="footer">
+		<ul class="sns blue">
+			<li>
+				<a href="">
+					
+				</a>
+			</li>
+			<li>
+				<a href="">
+					
+				</a>
+			</li>
+		</ul>
+	</footer>
+</body>
+</html>
