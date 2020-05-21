@@ -269,13 +269,15 @@ margin-top: 6.5vw; margin-left:45.5vw; letter-spacing: 1.6px;font-weight: 650; t
   border: none;
   color: #E36D7C;
   font-size: 3vh;
-  box-shadow: 50 42px 50 #E36D7C; 
+  box-shadow: 50 42 50 #E36D7C; 
   letter-spacing: 0.15vh;
   font-family: 'Noto Sans KR', sans-serif;
   padding: 0.5vw 3.7vw;
   font-weight: 630;
   text-decoration: none;
-  margin: 41.5vw 64.5vw;
+  margin-left: 49.5vw;
+  margin-top: 42.1vw ;
+
   cursor: pointer;
   border-radius: 20em;
 

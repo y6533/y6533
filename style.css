@@ -3,14 +3,14 @@
 @media (max-width: 699px) {
   #header .logo {
       position: fixed;left:50px;top:45px;z-index: 90; width: 40px ;height: 41px;
-      background: url("../images/layout/logo.png");
+      background: url("images/layout/logo.png");
     
    }
 }
 @media (min-width: 700px) {
   #header .logo {
       position: fixed;left:100px;top:55px;z-index: 90; width: 40px ;height: 41px;
-      background: url("../images/layout/logo.png");
+      background: url("images/layout/logo.png");
     
    }
 }
@@ -2034,7 +2034,7 @@ body[data-route-option="prev-section"] .c-header-home_controls, body[data-route-
 .top_branding{font-family: Georgia, serif; display: inline; position: absolute; z-index: 5; color:#E68892;
 margin-top: 6.5vw; margin-left:45.5vw; letter-spacing: 1.6px;font-weight: 650; text-align: center; font-size: 2.1vw;
 }
-#branding {position: absolute; width: 100%;height: 100% ; background-repeat: no-repeat;background-position: center center;background-image: url("../images/main/bgPortfolio.jpg");overflow: hidden;
+#branding {position: absolute; width: 100%;height: 100% ; background-repeat: no-repeat;background-position: center center;background-image: url("images/main/bgPortfolio.jpg");overflow: hidden;
 }
 html, body {
 	height: 100%;
@@ -2072,17 +2072,17 @@ html, body {
 	align-items: center;
 }
 #panel-container{
-background: url("../images/layout/connect_mockup.png") center top;
+background: url("images/layout/connect_mockup.png") center top;
 background-size:contain; 
 background-repeat: no-repeat;
 }
 #panel-container2{
-background: url("../images/layout/choco_pink,yellow_mockup.png") center top;
+background: url("images/layout/choco_pink,yellow_mockup.png") center top;
 background-size:contain; 
 background-repeat: no-repeat;
 }
 #panel-container3{
-background: url("../images/layout/clother_mockup.png") center top;
+background: url("images/layout/clother_mockup.png") center top;
 background-size:contain; 
 background-repeat: no-repeat;
 }
